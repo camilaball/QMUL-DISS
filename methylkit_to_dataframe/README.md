@@ -1,5 +1,6 @@
 ```mermaid
 graph TD;
-    A[Box 1] --> B[Box 2];
-    B --> C[Box 3];
-    C --> D[Box 4];
+    A[methylkit.R] --> B[getting_beta_values.py];
+    B --> C[annotat_script.R];
+    C --> D[merging_script.py];
+    D --> E[script_ageing_cpgs.py]
