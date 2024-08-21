@@ -1,3 +1,5 @@
+The flowchart below demonstrates the order in which I ran the scripts:
+
 ```mermaid
 graph TD;
     A[methylkit.R] --> B[getting_beta_values.py];
