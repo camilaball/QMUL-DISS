@@ -1,11 +1,22 @@
 # QMUL-DISS
-Welcome to the GitHub repository of my dissertation titled 'Epigenetic Clocks and Age Acceleration in Cancer" 
+Welcome to the GitHub Repository for My Dissertation: **"Epigenetic Clocks and Age Acceleration in Cancer"**
 
-Here there are 3 folders: 
-- bioinformatics_pipeline: Folder contains all the bash script I used for my bioinformatics pipeline from FastQC to methylation extraction where the final output file was a Bismark coverage file
-- methylkit_to_dataframe: Folder contains the different R and Bash scripts for processing the Bismark coverage file until getting the final dataset containing as columns hte sample names and the cpgs as rows (with the values being the methylation beta values)
-- functions : python folder containing all the python code for the development of age prediction model (machine learning models, feature selection methods etc.)
+Here you will find the following 3 folders:
 
-  The 2 other files are :
-  - imputation_features_OPEN.py: python script generating the 320 age prediction model combinations for OPEN GENES RRBS
-  - imputation_features_EPI.py: python script generating the 320 age prediction model combinations for EPI GENES RRBS
+- **bioinformatics_pipeline**:  
+  Contains all the bash scripts used in my bioinformatics pipeline, from FastQC to methylation extraction. The final output file from this process is a Bismark coverage file.
+
+- **methylkit_to_dataframe**:  
+  Includes various R and Bash scripts for processing the Bismark coverage file, resulting in the final dataset. The dataset features sample names as columns and CpGs as rows, with methylation beta values.
+
+- **functions**:  
+  This folder contains all the Python code used for developing the age prediction model, including machine learning models, feature selection methods, etc.
+
+Additionally, the repository includes the following files:
+
+- **imputation_features_OPEN.py**:  
+  A Python script that generates 320 different age prediction model combinations for OPEN GENES RRBS.
+
+- **imputation_features_EPI.py**:  
+  A Python script that generates 320 different age prediction model combinations for EPI GENES RRBS.
+
