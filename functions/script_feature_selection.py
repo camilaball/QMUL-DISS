@@ -1,3 +1,5 @@
+# Code from the github page of the publication "Novel feature selection methods for construction of accurate epigenetic clocks"
+
 from boruta import BorutaPy
 import pandas as pd
 import os
